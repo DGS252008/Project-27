@@ -29,11 +29,11 @@ function setup() {
 	bobObject4 = new Bob(380, 350, 30);
 	bobObject5 = new Bob(450, 350, 30);
 
-	rope1= new rope(bobObject1.body, roof.body, -30*2, 0)
-	rope2= new rope(bobObject2.body, roof.body, -30*2, 0);
-	rope3= new rope(bobObject3.body, roof.body, -30*2, 0)
-	rope4= new rope(bobObject4.body, roof.body, -30*2, 0)
-	rope5= new rope(bobObject5.body, roof.body, -30*2, 0)
+	rope1= new Rope(bobObject1.bob, roof.body, -30*2, 0);
+	rope2= new rope(bobObject2.bob, roof.body, -30*2, 0);
+	rope3= new rope(bobObject3.bob, roof.body, -30*2, 0);
+	rope4= new rope(bobObject4.bob, roof.body, -30*2, 0);
+	rope5= new rope(bobObject5.bob, roof.body, -30*2, 0);
 	
 
 	Engine.run(engine);
